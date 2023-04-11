@@ -25,7 +25,7 @@ function Section({title,description,backgroundImg,leftBtnText,rightBtnText,}) {
                     
                 </ButtonGroup>
             </Fade>
-            <DownArrow src='\src\images\down-arrow.svg' />
+            <DownArrow src='\images\down-arrow.svg' />
         </Buttons>
 
     </Wrap>
@@ -40,7 +40,7 @@ height: 100vh;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-image: url('src/images/model-s.jpg');
+background-image: url('/images/model-s.jpg');
 display: flex;
 flex-direction: column;
 justify-content: space-between;
